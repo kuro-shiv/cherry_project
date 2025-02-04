@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    color: bisque;
+    font-family: 'Arial', sans-serif;
+    position: absolute;
+    top: 20%; /* Position the heading above the heart */
+    z-index: 10; /* Ensure the text stays above the canvas */
+    font-size: 40px; /* Adjust the font size */
+    text-align: center;
+}
+
+canvas {
+    position: absolute;
+    top: 50%; /* Center the canvas vertically */
+    left: 50%; /* Center the canvas horizontally */
+    transform: translate(-50%, -50%); /* Ensure perfect centering */
+}
